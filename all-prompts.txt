@@ -1,0 +1,56 @@
+How I Make Videos With AI: every prompt on the page
+Replace the [brackets] with your details.
+
+== Your first message (with the make-a-video Skill) ==
+Use the make-a-video Skill. Make a 30-second video from the files in this folder. It is for [who will watch]. After watching, they should [believe or do one thing].
+
+== Step 1: Know what you want. Then gather your files. ==
+Here is my goal and my material.
+Audience: [who will watch].
+After watching, they should believe: [one sentence].
+Then they should: [one action].
+It will be posted on: [platform]. Length: [about 60 seconds]. Shape: [16:9 / vertical].
+My files are in originals/: screenshots, photos, logo, fonts and earlier work.
+Before you plan anything, ask me the questions you need answered. Then list what each file proves, flag any claim that has no file behind it, and propose an outline of 6 to 10 sections. Do not write scenes or render anything yet.
+Before you show me the outline, check your own work: confirm every claim in it has a file behind it, and mark any that does not.
+
+== Step 2: Get the whole draft once. Then react. ==
+Using notes/outline.md and originals/, first write the narration as natural spoken English, about [120] words (roughly two words per second of video), and a storyboard in notes/beats.csv: one row per phrase with the words, the file from originals/ that appears (or "missing: needs a screen recording or a generated image"), the text on screen and how things move. Stop so I can approve the words and the storyboard.
+After I approve them, build the complete first draft. Time every section to the narration and keep each section a separate, editable scene. Ease every movement, and carry something across from one scene to the next rather than a hard cut, unless the story needs the cut. Include every section; do not polish only the opening. Render a quick lower-resolution preview first (working/out/draft-v1-preview.mp4) and give me a link to open it. Export full quality only after I approve.
+Before you show me each one, check your own work: compare the script length with the target, confirm every phrase has a picture or is marked missing, render stills at the key moments into one contact sheet, confirm no text is cut off or overlapping, and check the voice loudness.
+
+== Step 3: Point at the problem. Fix one section at a time. ==
+I watched draft-v1. My notes:
+1. [0:03 or section]: [what's wrong] → [what I want]
+2. [0:08 or section]: [what's wrong] → [what I want]
+Keep: [what already works].
+Sound: [music or no music, and the feel], [voice too loud or too quiet anywhere].
+Reference (optional): [video file or link]. Borrow its [pace / type / energy], not its content.
+Fix only the [opening] for now. Export working/out/[opening]-v2.mp4 with one second of the neighbouring sections, and keep the previous version.
+When I say a section is approved, record its file name in notes/accepted.md and write its rules in notes/style.md: at most three colours, one pair of fonts, one kind of background and one kind of music. Every later section follows that style, and approved sections are never touched again.
+Before you show me, check your own work: confirm each note names a moment, what is wrong and what I want (ask me about any that does not), render stills at the key moments into one contact sheet, confirm no text is cut off or overlapping, check the voice loudness, and list each of my notes as done or not.
+
+== Step 3: Magic Move prompt ==
+Carry the same [element] from [its place in scene A] to [its place in scene B]. It must be one object that moves and resizes continuously, never a crossfade between two copies. Match its crop, background and layer order when it lands. Show me the start, middle and landing frames and a playable preview.
+
+== Step 4: Put it together. Listen at every join. ==
+Assemble the approved versions in notes/accepted.md into working/out/full-review-v1.mp4. Match voice loudness across sections.
+List every join with its timestamp. I will watch the whole film; for any join I flag, fix only that boundary and export again under a new name.
+Before you show me, check your own work: render stills just before and just after every join into one contact sheet, look for any old frame that flashes at a cut, confirm no text is cut off or overlapping, check the voice loudness, and list each of my notes as done or not.
+
+== Step 4: Music prompt ==
+The music should feel [three words, e.g. warm, rising, optimistic]. Here are [2 to 3 tracks I have the right to use]. Pick the tempo for the feeling: about 60 to 80 BPM feels cinematic, 90 to 110 smooth and calm, 115 to 123 confident and kinetic; faster reads as hype.
+Make short previews of the same opening, one quiet moment and the ending with each track, picture and narration unchanged.
+After I pick one, shape it to the story: rise at [the reveal], settle under [the reflective line], open up at the end. Lower it under speech. Keep sound effects rare: only where they help, and remove any that feel too loud or out of place. Save the plan to notes/music-cues.csv.
+
+== Step 5: Finish where people see it. Then save it as a Skill. ==
+Package the approved film into exports/: final.mp4, a cover image taken from the film, and post copy.
+Check duration, resolution, sound and the final second. Save notes/recipe.md with what worked, the approved files and the prompts, so the next video can start from it. Do not publish anything.
+Before you show me, check your own work: list the duration, resolution and sound you measured, confirm the first frame works as the cover, and check that the final second ends cleanly.
+
+== Step 5: Save it as a Skill ==
+This video is approved. Turn how we made it into a reusable Skill, so the next video of this kind starts from it.
+Read our whole history for this project: my notes, the versions I rejected and why, and the one I approved.
+Write skills/[name for this kind of video]/SKILL.md with: when to use it; what goes in and what comes out; the steps in order; my rules, each one taken from a note I gave or a draft I rejected, with the reason; the files and settings to reuse (fonts, colours, music levels, the ending); and the checks to run before you show me a draft.
+Keep it short and specific to my videos. Do not add rules I never gave. Show me the Skill before you save it.
+Next time, start with: Use skills/[name]/SKILL.md to make this video from originals/.

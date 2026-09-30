@@ -1,0 +1,42 @@
+name: I made a video with this kit
+description: Share a video you made with these steps, prompts or Skills.
+title: "Made with the kit: "
+labels: ["made-with-the-kit"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to the video
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you make, and who is it for?
+    validations:
+      required: true
+  - type: checkboxes
+    id: used
+    attributes:
+      label: What did you use?
+      options:
+        - label: The make-a-video Skill
+        - label: The prompts in all-prompts.txt
+        - label: One of the example Skills
+        - label: A Skill I saved myself
+  - type: input
+    id: tools
+    attributes:
+      label: Which assistant and model?
+      placeholder: For example, Claude Code with Opus 5.5, or Codex
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you change in the kit?
+  - type: checkboxes
+    id: sharing
+    attributes:
+      label: Sharing
+      options:
+        - label: Joe may link to this video when he shares examples of the kit.

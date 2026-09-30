@@ -1,0 +1,18 @@
+{
+  "name": "how-i-make-videos-with-ai",
+  "description": "The five steps of How I Make Videos With AI as a Skill for your assistant (make-a-video), plus six example Skills saved from real videos: a film from your real work, a recording into an episode, an episode into a short, a talk into a cut, a release into a preview, a screen recording into a feature video.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Joe Hu"
+  },
+  "homepage": "https://hubeiqiao.com/video-guide",
+  "repository": "https://github.com/hubeiqiao/how-i-make-videos-with-ai",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "remotion",
+    "skills",
+    "claude-code",
+    "codex"
+  ]
+}

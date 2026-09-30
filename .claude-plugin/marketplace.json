@@ -1,0 +1,16 @@
+{
+  "name": "how-i-make-videos-with-ai-marketplace",
+  "owner": {
+    "name": "Joe Hu"
+  },
+  "metadata": {
+    "description": "Video Skills from How I Make Videos With AI"
+  },
+  "plugins": [
+    {
+      "name": "how-i-make-videos-with-ai",
+      "source": "./",
+      "description": "make-a-video: the five steps as a Skill for your assistant, plus six example Skills saved from real videos"
+    }
+  ]
+}

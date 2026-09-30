@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+*.log
+
+# Your own material stays on your computer
+originals/
+working/
+exports/
