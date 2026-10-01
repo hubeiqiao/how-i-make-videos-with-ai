@@ -1,8 +1,8 @@
 # How I Make Videos With AI
 
-[![How I Make Videos With AI: the first frame of the trailer](assets/trailer-poster.jpg)](https://hubeiqiao.com/video-guide)
+[![How I Make Videos With AI: I'm not a trained editor. Here's how I made these.](assets/trailer-poster.jpg)](https://hubeiqiao.com/video-guide)
 
-I never trained as an editor. I make my videos by telling a coding assistant what I want, watching every draft and writing notes until it is right. The assistant writes the video as code (Remotion), so every change is exact.
+I'm not a trained editor. Every video I've posted since March, more than 100, I made by telling an AI coding tool (Claude Code or Codex) what I want, watching every draft and writing notes until it is right. Nothing is generated: the AI writes the video as code (Remotion) from my own photos and clips, so every note changes exactly what I point at. Almost none of them came out in one shot.
 
 This is the free kit from my guide, [How I Make Videos With AI](https://hubeiqiao.com/video-guide): the five steps written as a Skill for your assistant (a note of rules it reads before it starts), every prompt from the guide, and six Skills I saved from my own videos as examples. The steps are the same with any model.
 
@@ -34,7 +34,7 @@ You never edit a timeline or the code.
 2. **Get the whole draft once. Then react.** Done when a playable video exists from the first word to the last.
 3. **Point at the problem. Fix one section at a time.** Done when every section has an approved file and you have nothing left to say.
 4. **Put it together. Listen at every join.** Done when you can watch it end to end without wincing once.
-5. **Finish where people see it. Then save it as a Skill.** Done when the post preview looks right and the Skill is saved.
+5. **Finish where people see it. If you'll make this kind of video again, save the recipe as a Skill.** Done when the post preview looks right.
 
 A useful note has four parts: where, what's wrong, what you want, what must stay.
 
