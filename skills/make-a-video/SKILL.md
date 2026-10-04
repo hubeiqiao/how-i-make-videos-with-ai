@@ -1,6 +1,6 @@
 ---
 name: make-a-video
-description: Make a finished video from someone's own photos, clips, screen recordings or voice, by writing it as code with Remotion and rendering drafts they react to. It follows the five steps of "How I Make Videos With AI": know what you want, get the whole draft once, fix one section at a time, listen at every join, finish where people see it and save a Skill. Use when a user wants to make, cut or edit a video from their files, especially someone who has never used an editing app.
+description: "Make a finished video from someone's own photos, clips, screen recordings or voice, by writing it as code with Remotion and rendering drafts they react to. It follows the five steps of 'How I Make Videos With AI': know what you want, get the whole draft once, fix one section at a time, listen at every join, finish where people see it and save a Skill. Use when a user wants to make, cut or edit a video from their files, especially someone who has never used an editing app."
 ---
 
 # Make a video from your files
