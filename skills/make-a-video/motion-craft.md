@@ -26,7 +26,20 @@ Show the state list laid on the beat grid before you write code.
 6. **Motion blur on fast moves.** Use `@remotion/motion-blur` (CameraMotionBlur, about 4 to 5 samples) for fast moves only.
 7. **Check one frame per beat before the full render.** Render stills on the beats into a contact sheet and fix anything off the grid, cramped or hard to read first.
 
+8. **Holds still breathe.** Any shot held longer than about 2 seconds keeps a slow drift: a photo scales a few percent over several seconds, words float on separate phases, the light moves. Subtle and continuous; never jitter.
+9. **Entrances settle; they don't swing.** Use near-critical damping and no rotation overshoot when something flies in. A swinging overshoot reads as camera shake.
+10. **Make the key line an event.** The one line the video is about gets a real action, not a fade: something builds, breaks, and the answer arrives (for "not for the tech, for the people": tech glyphs circle the word, a slash, the word blows apart, and photos of people fly in and connect).
+
+## Live Photos and phone clips
+
+- Play a Live Photo once, then hold. Never loop it; the restart reads as a shake.
+- Hold on the middle frame (the photo itself) and play only the last ~0.75 s before it. The start is often a shaky pan and the end a swipe.
+- Steady handheld clips by smoothing the camera path (track motion between frames, smooth it with a moving average, move each frame by the difference, clamped inside a small crop). Locking every frame to the first one accumulates error and mirrors the edges.
+- Live Photos are 13 to 30 fps and variable. Hold each source frame for the same whole number of output frames. Frame blending ghosts faces, and a plain frame-rate conversion judders.
+
 ## Gotchas
+
+- In Remotion, `<Sequence>` resets `useCurrentFrame()` to 0 inside it. A scene written in the film's absolute times goes blank there; show it by frame range instead, or write it in local time.
 
 - Don't put `will-change` on anything the camera scales, or text renders blurry.
 - Text that swaps inside a morphing container needs its own enter and exit timing, or old and new text overlap.
