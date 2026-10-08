@@ -33,7 +33,7 @@ Done when every part of the outline points to a real file.
 
 If the video has a voice, write the narration first, as natural spoken words, about two words per second of video. Write `notes/beats.csv`: one row per phrase, with the words, the file on screen (or "missing: needs a screen recording or a photo"), the text on screen and how things move. Stop so they can approve the words and the storyboard.
 
-Then build the complete first draft: every section, timed to the voice, each section its own editable scene. Ease every movement. Carry something across from one scene to the next rather than a hard cut, unless the story needs the cut. Do not polish only the opening. Render a quick lower-resolution preview to `working/out/draft-v1-preview.mp4` and link it.
+Then build the complete first draft: every section, timed to the voice, each section its own editable scene. Ease every movement. If a section has animated text, UI, charts or graphics, follow `motion-craft.md` in this folder. Carry something across from one scene to the next rather than a hard cut, unless the story needs the cut. Do not polish only the opening. Render a quick lower-resolution preview to `working/out/draft-v1-preview.mp4` and link it.
 
 Before you show it, check your own work: length against the target; every phrase has a picture or is marked missing; stills at the key moments in one contact sheet; no text cut off or overlapping; voice loudness.
 
